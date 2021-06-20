@@ -18,7 +18,6 @@ export default function App() {
 		for (let i = 0; i < value; i++) {
 			var random = randomizer();
 			password = password + random.toString();
-			console.log(password);
 		}
 		Alert.alert("Senha gerada!", password, [
 			{
